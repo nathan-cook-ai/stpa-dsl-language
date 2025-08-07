@@ -1,0 +1,25 @@
+{
+  "name": "stpa-dsl-language",
+  "displayName": "STPA DSL Language",
+  "description": "Provides language support for the PASTA .stpa file extension",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "stpa",
+      "aliases": ["PASTA STPA DSL", "stpa"],
+      "extensions": [".stpa"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "stpa",
+      "scopeName": "source.stpa",
+      "path": "./syntaxes/stpa.tmLanguage.json"
+    }]
+  }
+}
