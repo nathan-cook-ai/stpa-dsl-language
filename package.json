@@ -3,6 +3,7 @@
   "displayName": "STPA DSL Language",
   "description": "Provides language support for the PASTA .stpa file extension",
   "version": "0.0.1",
+  "repository": "https://github.com/nathan-cook-ai/stpa-dsl-language",
   "engines": {
     "vscode": "^1.102.0"
   },
